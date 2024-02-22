@@ -66,7 +66,7 @@ html .text-hover-dark:hover {
 
 html .text-color-light,
 html .text-light {
-	color: #FFF !important;
+	color: #082432 !important;
 }
 
 html .text-color-hover-light:hover,
@@ -5710,12 +5710,12 @@ html .slide-overlay.slide-overlay-gradient .slotholder:after {
 }
 
 #footer .footer-ribbon {
-	background: #cfa968;
+	background: #082432;
 }
 
 #footer .footer-ribbon:before {
-	border-right-color: #b28539;
-	border-left-color: #b28539;
+	border-right-color: #082432;
+	border-left-color: #082432;
 }
 
 #footer .footer-nav.footer-nav-bottom-line nav > ul:not(:hover) > li > a.active {

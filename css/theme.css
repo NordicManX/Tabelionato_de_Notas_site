@@ -5835,8 +5835,8 @@ html.dark .text-muted {
 /* RTL */
 /* #Footer */
 #footer {
-	background: #627264;
-	border-top: 4px solid #627264;
+	background: #d1d1d1;
+	border-top: 4px solid #d1d1d1;
 	font-size: 0.9em;
 	margin-top: 50px;
 	padding: 0;
@@ -5870,7 +5870,7 @@ html.dark .text-muted {
 }
 
 #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-	color: #FFF;
+	color: #082432;
 }
 
 #footer a:not(.btn) {
