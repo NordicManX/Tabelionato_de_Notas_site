@@ -1,0 +1,28 @@
+<div class="modal fade" id="modal-popup" tabindex="-1" role="dialog" aria-labelledby="Informa&ccedil;&otilde;es" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="ModalCenterTitle"><i class="fa fa-info-circle" aria-hidden="true"></i> {P-TITULO}</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="popup-content"> 	
+					{P-THUMBIMG}
+					{P-VIDEO}
+					{P-CONTEUDO}
+				</div>
+			</div>
+			<div class="modal-footer {HIDE}">
+				<a href="{P-LINK}" class="btn btn-primary">{P-BOTAO}</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" >
+	$(document).ready(function(){
+		$('#modal-popup').modal('show');
+    });  
+</script>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<layouts>
+	<layout>
+		<file>page-default.html</file>
+		<name>Página Padrão</name>
+	</layout>
+			
+	<layout>
+		<file>page-contact.html</file>
+		<name>Página de Contatos</name>
+	</layout>	
+	
+	<layout>
+		<file>page-blog.html</file>
+		<name>Página de Blog</name>
+	</layout>
+	
+	<layout>
+		<file>page-list.html</file>
+		<name>Página com lista de itens</name>
+	</layout>			
+
+</layouts>

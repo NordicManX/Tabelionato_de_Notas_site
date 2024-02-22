@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	{HEADER}
+    	
+		<!-- Google codes -->
+		{GC-GOOGLE-DATALAYERS}  
+		{GC-GOOGLECODE-HEAD}  
+		
+		<!-- Integrations  -->
+		{GC-INTEGRACOES-HEAD}
+		
+    </head>
+    <body class="loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}">
+		<!-- Google codes -->
+		{GC-GOOGLECODE-BODY}  
+		
+		<!-- Integrations  -->
+		{GC-INTEGRACOES-BODY}
+        <div class="loading-overlay">
+            <div class="bounce-loader">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+
+        <div class="body">
+        
+            {HEADER-MENU}
+			
+			<div role="main" class="main">
+				<section class="page-header page-header-classic bg-color-secondary page-header-lg">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<ul class="breadcrumb text-color-light">
+									<li><a href="/">Home</a></li>
+									<li class="active">{PAGE-TITLE}</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col p-static">
+								<h1 data-title-border>{PAGE-TITLE}</h1>
+
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				<div class="container pb-5">
+
+					<div class="row pt-2 pb-5">
+						<div class="col">
+
+							<h2 class="mb-2">{PAGE-TITLE}</h2>
+
+							<img class="img-fluid float-right ml-5 mb-4 mt-4 {HIDE-IMG}" src="{PAGE-THUMB-IMGURL}" alt="{PAGE-TITLE}" />
+
+							<div>
+								
+								{PAGE-CONTENT}
+								
+								<a href="{PAGE-FILE}" class="btn btn-primary {PAGE-FILE-HIDE}" title="baixar arquivo em anexo do {PAGE-TITLE}"><i class="fa fa-download" aria-hidden="true"></i> Baixar arquivo</a>
+								
+								<div class="row">
+									{SUBPAGE-LISTING} 
+									{PAGINATION}	
+								</div>	
+														
+								{PAGE-ALBUM}
+								{PAGE-FILES}
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+				
+			</div>
+  			<footer id="footer" class="mt-0">
+            	{FOOTER}
+			</footer>
+        </div>
+
+				
+		{VENDORS-JS}
+
+		 
+    </body>
+</html>

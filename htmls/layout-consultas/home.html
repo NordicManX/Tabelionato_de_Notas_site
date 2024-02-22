@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	{HEADER}
+    	
+		<!-- Google codes -->
+		{GC-GOOGLE-DATALAYERS}  
+		{GC-GOOGLECODE-HEAD}  
+		
+		<!-- Integrations  -->
+		{GC-INTEGRACOES-HEAD}
+		
+    </head>
+    <body class="loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}">
+		<!-- Google codes -->
+		{GC-GOOGLECODE-BODY}  
+		
+		<!-- Integrations  -->
+		{GC-INTEGRACOES-BODY}
+        <div class="loading-overlay">
+            <div class="bounce-loader">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+
+        <div class="body">
+        
+            {HEADER-MENU}
+
+            <div role="main" class="main">
+            
+            
+				<section class="page-header page-header-modern bg-color-light-scale-1 page-header-sm">
+					<div class="container">
+						<div class="row">
+
+							<div class="col-md-8 order-2 order-md-1 align-self-center p-static">
+								<h1 data-title-border class="text-dark"><strong>{PAGE-TITLE}</strong></h1>
+
+							</div>
+
+							<div class="col-md-4 order-1 order-md-2 align-self-center">
+								<ul class="breadcrumb d-block text-md-right">
+									<li><a href="/">Home</a></li>
+									<li class="active">{PAGE-TITLE}</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+
+				<div class="container py-2 mb-5">
+
+					<div class="row">
+						<div class="col-lg-12 bg-primary p-1">
+							<section class="section-primary match-height border-0 bg-primary p-1">
+								<div class="text-center">
+									<h2 class="mt-4 mb-0">Consulte as notas de entregas</h2>
+									<div class="divider divider-secondary divider-small divider-small-center mb-4">
+										<hr>
+									</div>
+								</div>
+								
+								<div class="text-center p-2">
+
+									<a class="btn btn-secondary btn-lg col-xs-12 col-sm-12 m-1"
+									href="" data-toggle="modal" data-target="#modal-consulta-registro"
+									>Registro</a>
+
+									<a class="btn btn-secondary btn-lg col-xs-12 col-sm-12 m-1"
+									href="" data-toggle="modal" data-target="#modal-consulta-exame"
+									>Exame e C&aacute;lculo</a>
+
+									<a class="btn btn-secondary btn-lg col-xs-12 col-sm-12 m-1"
+									href="" data-toggle="modal" data-target="#modal-consulta-certidao"
+									>Certid&atilde;o</a>
+								
+								</div>
+							</section>
+						</div>
+					</div>
+
+				</div>
+			</div>            
+
+           	{FOOTER}
+           	
+        </div>
+        
+        {MODALS}
+				
+		{VENDORS-JS}
+
+		 
+    </body>
+</html>

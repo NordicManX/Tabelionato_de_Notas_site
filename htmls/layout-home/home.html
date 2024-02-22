@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	{HEADER}
+    	
+		<!-- Google codes -->
+		{GC-GOOGLE-DATALAYERS}  
+		{GC-GOOGLECODE-HEAD}  
+		
+		<!-- Integrations  -->
+		{GC-INTEGRACOES-HEAD}
+    </head>
+    <body class="loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}">
+		<!-- Google codes -->
+		{GC-GOOGLECODE-BODY}  
+		
+		<!-- Integrations  -->
+		{GC-INTEGRACOES-BODY}
+        <div class="loading-overlay">
+            <div class="bounce-loader">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+
+        <div class="body">
+			<div class="whats-fone">
+			  <div class="whatsapp" id="WhatsApp">
+			    <div class="bt abre" onclick="document.getElementById('WhatsApp').className = 'whatsapp whatsappAbre';"></div>
+			    <div class="bt fecha" onclick="document.getElementById('WhatsApp').className = 'whatsapp';"></div>
+			    <a href="https://api.whatsapp.com/send?phone=+55{GC-WHATSAPP-CLEAR}" target="_blank">
+			      <span><small>Fale agora conosco</small></span>
+			      <span><strong>pelo WhatsApp</strong></span>
+			    </a>
+			  </div>
+			</div>	        
+        
+            {HEADER-MENU}
+
+            <div role="main" class="main">
+            	
+                <div class="slider-container rev_slider_wrapper" style="height: 530px;">
+                
+                	{BANNER-1}
+                   
+                </div>
+                
+                <div class="home-intro home-intro-quaternary" id="home-intro">
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col">
+								{HOME-SERVICOS-ONLINE}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container ppear-animation" data-appear-animation="fadeInRightShorter">
+	                <div class="row align-items-center mb-5">
+                        <div class="col-lg-8 pr-5">
+							{HOME-QUEMSOMOS}
+                        </div>
+                        <div class="col-lg-4 ">
+							<div class="card-body text-2 ">
+								{HOME-BOTOES}
+							</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <section class="section bg-color-grey-scale-1 section-height-3 section-no-border appear-animation" data-appear-animation="fadeIn" style="text-align:center">
+                    {HOME-LGPD}
+                </section>
+
+                <div class="container">
+                    <div class="row align-items-center mb-5">
+                        <div class="col-lg-7 pr-5 appear-animation" data-appear-animation="fadeInRightShorter">
+                            <h2 class="font-weight-normal text-6 mb-4"><strong class="font-weight-extra-bold">&Uacute;ltimos </strong>videos</h2>
+				            <div class="video-container">
+				            	<iframe width="560" height="315" src="{WD-VIDEO-PRINCIPAL}" frameborder="0" allowfullscreen></iframe>
+				            </div>
+                            <a class="btn btn-light text-uppercase text-primary text-1 py-2 px-4 mb-1" href="https://www.youtube.com/channel/UCCRNcH0lHaUO9Hs3aqnXzHA"><strong>VEJA MAIS</strong><i class="fas fa-chevron-right text-2 pl-2"></i></a>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="row mt-5 mt-lg-0">
+                            	{WD-YOUTUBE}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <section class="section bg-color-grey-scale-1 section-height-3 section-no-border appear-animation" data-appear-animation="fadeIn" style="text-align:center">
+                    {HOME-TRANSPARENCIA}
+                </section>
+                
+				<section class="section bg-color-light section-height-3 section-no-border appear-animation" data-appear-animation="fadeIn">
+	                <div class="container">
+	                    <div class="row mt-2">
+	                        <div class="col-lg-12 text-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">
+	                            <h2 class="font-weight-normal text-6 mt-3 mb-5">&Uacute;ltimas <strong class="font-weight-extra-bold">Not&iacute;cias</strong></h2>
+	                        </div>
+	                    </div>
+	                    <div class="row recent-posts pb-4 mb-2 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">
+	                    	{WIDGET-NEWS}
+	                    </div>
+	                </div>
+				</section>
+
+            </div>
+
+            <footer id="footer" class="mt-0">
+            	{FOOTER}
+			</footer>
+        </div>
+
+ 
+		<!-- /POPUP  -->
+		{POPUP-HTML}
+		<!-- ./POPUP  -->
+				
+		{VENDORS-JS}
+
+		{COOKIE}
+		 
+    </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	{HEADER}
+    	
+		<!-- Google codes -->
+		{GC-GOOGLE-DATALAYERS}  
+		{GC-GOOGLECODE-HEAD}  
+		
+		<!-- Integrations  -->
+		{GC-INTEGRACOES-HEAD}
+		
+    </head>
+    <body class="loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}">
+		<!-- Google codes -->
+		{GC-GOOGLECODE-BODY}  
+		
+		<!-- Integrations  -->
+		{GC-INTEGRACOES-BODY}
+        <div class="loading-overlay">
+            <div class="bounce-loader">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+
+        <div class="body">
+        
+            {HEADER-MENU}
+
+            <div role="main" class="main">
+            
+				<section class="page-header page-header-classic bg-color-secondary page-header-lg">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<ul class="breadcrumb text-color-light">
+									<li><a href="/">Home</a></li>
+									<li class="active">{PAGE-TITLE}</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col p-static">
+								<h1 data-title-border>{PAGE-TITLE}</h1>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<div class="container py-2 mb-5">
+
+					<div class="row">
+						<div class="col col-lg-9">
+							<img class="img-fluid float-right ml-5 mb-4 mt-4 {HIDE-IMG} appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="0" data-appear-animation-duration="1s" style="animation-duration: 1s; animation-delay: 0ms;" src="{PAGE-THUMB-IMGURL}" alt="{PAGE-TITLE}" />
+							{PAGE-CONTENT}
+							<a href="{PAGE-FILE}" class="btn btn-primary {PAGE-FILE-HIDE}" title="baixar arquivo em anexo do {PAGE-TITLE}"><i class="fa fa-download" aria-hidden="true"></i> Baixar arquivo</a>
+							{PAGE-ALBUM}
+							{PAGE-FILES}							
+						</div>
+						<div class="col-lg-3">
+							<aside class="sidebar">
+								<h4 class="pt-4 mb-3 text-color-dark {HIDE-SUBPAGES}">P&aacute;ginas Relacionadas</h4>
+								<ul class="nav nav-list flex-column mb-4 show-bg-active">
+									{SUBPAGE-LISTING} 
+									{PAGINATION}
+								</ul>
+							</aside>
+						</div> 							
+					</div>
+
+				</div>
+			</div>            
+
+            <footer id="footer" class="mt-0">
+            	{FOOTER}
+			</footer>
+        </div>
+				
+		{VENDORS-JS}
+
+		 
+    </body>
+</html>

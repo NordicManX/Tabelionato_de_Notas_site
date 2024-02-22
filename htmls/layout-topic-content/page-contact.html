@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	{HEADER}
+    	
+		<!-- Google codes -->
+		{GC-GOOGLE-DATALAYERS}  
+		{GC-GOOGLECODE-HEAD}  
+		
+		<!-- Integrations  -->
+		{GC-INTEGRACOES-HEAD}
+		
+    </head>
+    <body class="loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}">
+		<!-- Google codes -->
+		{GC-GOOGLECODE-BODY}  
+		
+		<!-- Integrations  -->
+		{GC-INTEGRACOES-BODY}
+        <div class="loading-overlay">
+            <div class="bounce-loader">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+
+        <div class="body">
+        
+            {HEADER-MENU}
+			
+			<div role="main" class="main">
+            
+				<section class="page-header page-header-modern bg-color-light-scale-1 page-header-sm">
+					<div class="container">
+						<div class="row">
+
+							<div class="col-md-8 order-2 order-md-1 align-self-center p-static">
+								<h1 data-title-border class="text-dark"><strong>{SUBPAGE-TITLE}</strong></h1>
+
+							</div>
+
+							<div class="col-md-4 order-1 order-md-2 align-self-center">
+								<ul class="breadcrumb d-block text-md-right">
+									<li><a href="/">Home</a></li>
+									<li><a href="{PAGE-LINKBACK}">{PAGE-TITLE}</a></li>
+									<li class="active">{SUBPAGE-TITLE}</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				<div class="container py-2 mb-5">
+
+					<div class="row pt-2 mb-4">
+						<div class="col-lg-2">
+							<aside class="sidebar">
+								<h4 class="pt-4 mb-3 text-color-dark">P&aacute;ginas Relacionadas</h4>
+								<ul class="nav nav-list flex-column mb-4 show-bg-active">
+									{SUBPAGE-LISTING} 
+								</ul>
+
+							</aside>
+
+						</div>
+						<div class="col-lg-6">
+							<div class="col-lg-12">
+								<h2 class="mb-2">{SUBPAGE-TITLE}</h2>
+	
+								<img class="img-fluid ml-4 mb-4 mt-4 {HIDE-IMG}" src="{SUBPAGE-THUMB-IMGURL}" alt="{SUBPAGE-TITLE}" />
+								{FORM-CONTACT-PAGES}
+								
+								{SUBPAGE-CONTENT}
+								<a href="{SUBPAGE-FILE}" class="btn btn-primary {SUBPAGE-FILE-HIDE}" title="baixar arquivo em anexo do {SUBPAGE-TITLE}"><i class="fa fa-download" aria-hidden="true"></i> Baixar arquivo</a>
+								{SUBPAGE-ALBUM}
+								{SUBPAGE-FILES}
+							</div>
+
+						</div>
+						<div class="col-lg-4 col-lg-offset-1">
+
+							<h4 class="text-color-dark mb-1 pb-3">Localiza&ccedil;&atilde;o</h4>
+
+							<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14359.10691071295!2d-48.5751184!3d-25.8768249!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x907c91893e661fd9!2sTabelionato%20de%20Notas%20e%20Protestos%20de%20T%C3%ADtulos!5e0!3m2!1spt-BR!2sbr!4v1628255725055!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+							<ul class="list list-icons mt-4 mb-4">
+								<li><i class="icon-pin icons"></i> <strong>Endere&ccedil;o:</strong> {GC-ADDRESS1} {GC-ADDRESS2} <br> {GC-CITY} {GC-STATE}</li>
+								<li><i class="icon-call-end icons"></i> <strong>Telefone:</strong> {GC-PHONE}</li>
+								<li><i class="icon-envelope icons"></i> <strong>Email:</strong> <a href="mailto:{GC-PRIMARY-EMAIL}">{GC-PRIMARY-EMAIL}</a></li>
+							</ul>
+
+						</div>						
+					</div>
+
+				</div> 
+				
+			</div>
+
+			
+            <footer id="footer" class="mt-0">
+            	{FOOTER}
+			</footer>
+        </div>
+
+				
+		{VENDORS-JS}	
+		 
+    </body>
+</html>

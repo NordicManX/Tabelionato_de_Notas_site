@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	{HEADER}
+    	
+		<!-- Google codes -->
+		{GC-GOOGLE-DATALAYERS}  
+		{GC-GOOGLECODE-HEAD}  
+		
+		<!-- Integrations  -->
+		{GC-INTEGRACOES-HEAD}
+		
+    </head>
+    <body class="loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}">
+		<!-- Google codes -->
+		{GC-GOOGLECODE-BODY}  
+		
+		<!-- Integrations  -->
+		{GC-INTEGRACOES-BODY}
+        <div class="loading-overlay">
+            <div class="bounce-loader">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+
+        <div class="body">
+        
+            {HEADER-MENU}
+			
+			<div role="main" class="main">
+				<section class="page-header page-header-classic bg-color-secondary page-header-lg">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<ul class="breadcrumb text-color-light">
+									<li><a href="/">Home</a></li>
+									<li class="active">{PAGE-TITLE}</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col p-static">
+								<h1 data-title-border>{PAGE-TITLE}</h1>
+
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				<div class="container">
+
+					<div class="row pt-4 mb-4">
+						<div class="col-lg-7">
+
+							<h2 class="mb-0">{PAGE-TITLE}</h2>
+
+							<p class="lead mb-4 mt-1">Entre em contato ou ligue para descobrir como podemos ajudar.</p>
+							
+							{FORM-CONTACT-PAGES}
+							
+							<div>
+								{PAGE-CONTENT}
+								<a href="{PAGE-FILE}" class="btn btn-primary {PAGE-FILE-HIDE}" title="baixar arquivo em anexo do {PAGE-TITLE}"><i class="fa fa-download" aria-hidden="true"></i> Baixar arquivo</a>
+								{PAGE-ALBUM}
+								{PAGE-FILES}
+							</div>
+							
+						</div>
+						<div class="col-lg-4 col-lg-offset-1">
+
+							<h4 class="text-color-dark mb-1 pb-3">Localiza&ccedil;&atilde;o</h4>
+
+							<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3589.7767281771235!2d-48.5773070849767!3d-25.87682488358471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dbfaa0a3b57c1b%3A0x907c91893e661fd9!2sTabelionato%20de%20Notas%20e%20Protestos%20de%20T%C3%ADtulos!5e0!3m2!1spt-BR!2sbr!4v1599666318803!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+							<ul class="list list-icons mt-4 mb-4">
+								<li><i class="icon-pin icons"></i> <strong>Endere&ccedil;o:</strong> {GC-ADDRESS1} {GC-ADDRESS2} <br> {GC-CITY} {GC-STATE}</li>
+								<li><i class="icon-call-end icons"></i> <strong>Telefone:</strong> {GC-PHONE}</li>
+								<li><i class="icon-envelope icons"></i> <strong>Email:</strong> <a href="mailto:{GC-PRIMARY-EMAIL}">{GC-PRIMARY-EMAIL}</a></li>
+							</ul>
+
+						</div>
+					</div>
+
+				</div>				
+
+				
+			</div>
+
+			
+            <footer id="footer" class="mt-0">
+            	{FOOTER}
+			</footer>
+        </div>
+
+				
+		{VENDORS-JS}
+
+		 
+    </body>
+</html>

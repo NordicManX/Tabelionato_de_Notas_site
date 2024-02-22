@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	{HEADER}
+    	
+		<!-- Google codes -->
+		{GC-GOOGLE-DATALAYERS}  
+		{GC-GOOGLECODE-HEAD}  
+		
+		<!-- Integrations  -->
+		{GC-INTEGRACOES-HEAD}
+		
+    </head>
+    <body class="loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}">
+		<!-- Google codes -->
+		{GC-GOOGLECODE-BODY}  
+		
+		<!-- Integrations  -->
+		{GC-INTEGRACOES-BODY}
+        <div class="loading-overlay">
+            <div class="bounce-loader">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+
+        <div class="body">
+        
+            {HEADER-MENU}
+
+            <div role="main" class="main">
+            
+            
+				<section class="page-header page-header-modern bg-color-light-scale-1 page-header-sm">
+					<div class="container">
+						<div class="row">
+
+
+							<div class="col-md-6 order-2 order-md-1 align-self-center p-static">
+								<h1 data-title-border class="text-dark"><strong>{PAGE-TITLE}</strong></h1>
+
+							</div>
+
+							<div class="col-md-6 order-1 order-md-2 align-self-center">
+								<ul class="breadcrumb d-block text-md-right">
+									<li><a href="/">Home</a></li>
+									<li><a href="/consultas/">Consultas</a></li>
+									<li class="active">{PAGE-TITLE}</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				<div class="container py-2 mb-5">
+					<div class="row">
+						<div class="container mb-2">
+							<div class="row">
+								<div class="col-lg-12 align-items-center text-center p-2">
+									<div class="row justify-content-center">
+										<h2 class="mb-0 col-lg-12">{PAGE-TITLE}</h2> 
+										<div class="col-lg-6 p-3 ">
+								            <form class="needs-validation" novalidate id="consulta-certidao" action="{FRM-ACTION}" method="POST">
+								            
+								                <p class="text-dark" >Use o C&oacute;digo de Consulta que est&aacute; indicado abaixo do c&oacute;digo de barras nas Notas de Entrega.</p>            
+												<div class="form-row" align-items-center> {FRM-LETRA}
+													<div class="col-6">
+														<input type="text" name="protocolo" id="protocolo" class="form-control"  maxlength="9" required>
+													</div>
+													- 
+													<div class="col-2">
+														<input type="text" name="digito" id="digito" class="form-control" maxlength="4" required>
+													</div>
+												</div>
+									            
+												<div class="modal-footer mt-3 p-3">
+													<button type="submit" class="btn btn-primary" data-toggle="loading">Confirmar</button>
+												</div>
+								            </form> 
+							            </div>
+						            </div>
+								</div>
+							</div>
+						</div>		
+									
+						{CONTEUDO}					
+					</div>
+				</div>
+				
+			</div>            
+
+           	{FOOTER}
+           	
+        </div>
+				
+		{VENDORS-JS}
+
+		 
+    </body>
+</html>

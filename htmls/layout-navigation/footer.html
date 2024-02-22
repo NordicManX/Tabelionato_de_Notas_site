@@ -1,0 +1,77 @@
+<div class="container">
+	<div class="footer-ribbon">
+		<span>Contatos</span>
+	</div>
+	<div class="row py-5 my-4">
+		<!--<div class="col-md-7 col-lg-4 mb-5 mb-lg-0 pt-3">
+			{FOOTER-TEXTORODAPE}
+		</div>-->
+		<div class="col-lg-6 col-md-6 col-lg-3 mb-5 mb-lg-0 pt-3">
+			<h5 class="text-3 mb-3 pb-1">FALE CONOSCO</h5>
+			<p class="text-8 text-color-light font-weight-bold">{GC-PHONE}</p>
+			<!-- <p class="mb-2">WhatsApp: {GC-WHATSAPP} </p>-->
+			<ul class="list list-icons list-icons-lg">
+				<li class="mb-1"><i class="far fa fa-phone-square text-color-primary"></i><p class="m-0">{GC-WHATSAPP}</p></li>
+				<li class="mb-1"><i class="far fa-dot-circle text-color-primary"></i><p class="m-0">{GC-ADDRESS1} {GC-ADDRESS2}, {GC-ZIPCODE} {GC-CITY} {GC-STATE}</p></li>
+				<li class="mb-1"><i class="far fa-envelope text-color-primary"></i><p class="m-0"><a href="mailto:{GC-PRIMARY-EMAIL}">{GC-PRIMARY-EMAIL}</a></p></li>
+			</ul>
+			<ul class="social-icons mt-4">
+				<li class="social-icons-facebook"><a href="{GC-LINKFACEBOOK}" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+				<li class="social-icons-twitter"> <a href="{GC-LINKTWITTER}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+				<li class="social-icons-linkedin"><a href="{GC-LINKTLINKEDIN}" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+			</ul>
+		</div>
+		<div class="col-lg-4 pt-3">
+			<h5 class="text-3 mb-3 pb-1">ENVIE-NOS UMA MENSAGEM</h5>
+			<form class="contact-form-recaptcha-v3" action="/contactform" method="POST">
+				<input type="hidden" value="Contact Form" name="subject" id="subject">
+				<div class="contact-form-success alert alert-success d-none">
+					A mensagem foi enviada para n&oacute;s.
+				</div>
+
+				<div class="contact-form-error alert alert-danger d-none">
+					Erro ao enviar sua mensagem.
+					<span class="mail-error-message text-1 d-block"></span>
+				</div>
+				<div class="form-row">
+					<div class="form-group col">
+						<input type="text" value="" data-msg-required="Por favor, insira seu nome." maxlength="100" class="form-control py-2" placeholder="Seu nome..." name="name" id="name" required>
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="email" value="" data-msg-required="Por favor, insira seu email." data-msg-email="Por favor, insira um email valido." maxlength="100" class="form-control py-2" placeholder="Seu e-mail..." name="email" id="email" required>
+				</div>
+				<div class="form-row">
+					<div class="form-group col">
+						<textarea maxlength="5000" data-msg-required="Por favor, insira sua mensagem." rows="4" class="form-control" placeholder="Sua mensagem..." name="message" id="message" required></textarea>
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="form-group col">
+						<input type="submit" value="ENVIAR" class="btn btn-xl btn-outline btn-primary text-1 font-weight-bold text-uppercase" data-loading-text="Enviando...">
+					</div>
+				</div>
+				<div class="d-none">
+					<input type="text" value="1" name="antispam" id="antispam" class="d-none">
+				</div>				
+			</form>
+		</div>
+	</div>
+</div>  
+<div class="footer-copyright">
+	<div class="container py-2">
+		<div class="row py-4">
+			<div class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
+				<a href="/" class="logo pr-0 pr-lg-3">
+					<img alt="{GC-COMPANY-NAME}" src="/sys/skins/{SKIN}/images/logo-icone.png" class="" height="33">
+				</a>
+			</div>
+			<div class="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
+				<p>&copy; {YEAR}, {GC-COPYRIGHT-DESCRIPTION}. All Rights Reserved.</p>
+			</div>
+			<div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
+				Website by <a href="http://www.voxelarts.com"><img src="/sys/skins/{SKIN}/images/voxelbr-dasti-gif.gif" alt="Voxel Digital Arts Brazil" height="50" /></a>
+			</div>
+		</div>
+	</div>
+</div>

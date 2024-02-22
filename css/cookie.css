@@ -1,0 +1,97 @@
+
+.cookieConsentContainer {
+    z-index: 10000;
+    width: 100%;
+    min-height: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0 3px 6px 5px rgb(0 0 0 / 20%);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    display: none;
+    background: #fff;
+}
+
+.cookieConsentContainer .cookieContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cookieConsentContainer .cookieMessage {
+    float: left;
+    width: calc(100% - 225px);
+}
+
+.cookieConsentContainer .cookieTitle a {
+    font-family: "Noto Sans", arial, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    display: block;
+    font-weight: bold;
+}
+
+.cookieConsentContainer div {
+    color: #333;
+}
+
+.cookieConsentContainer .cookieDesc p {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    display: block;
+    margin-top: 8px;
+}
+
+.cookieConsentContainer .cookieDesc a {
+    font-family: "Noto Sans", arial, sans-serif;
+    text-decoration: underline;
+    color: #333;
+}
+
+.cookieConsentContainer .cookieButton a.see-options {
+    margin-top: 10px;
+    background-color: #999;
+}
+
+.cookieConsentContainer .cookieButton a {
+    border-radius: 5px;
+    width: 200px;
+    display: inline-block;
+    font-family: "Noto Sans", arial, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    background: #555;
+    box-sizing: border-box;
+    padding: 11px 15px;
+    text-align: center;
+    transition: background 0.3s;
+    float: right;
+}
+
+.painelPanel .painelSave:hover,
+.cookieConsentContainer .cookieButton a:hover {
+    cursor: pointer;
+    background: #155299 !important;
+    color: #ffffff !important;
+}
+
+@media (max-width: 768px) {
+    .cookieConsentContainer {
+        bottom: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+    }
+    .cookieConsentContainer .cookieMessage,
+    .cookieConsentContainer .cookieButton a {
+        width: 100%;
+    }
+    .cookieConsentContainer .cookieButton a {
+        margin: 15px 0px 0px 0px;
+        float: none;
+    }
+}

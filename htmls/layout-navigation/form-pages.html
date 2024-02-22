@@ -1,0 +1,58 @@
+<form id="contactForm" class="contact-form-recaptcha-v3" action="/contactform/" method="POST" class="mb-4">
+	<div class="form-row">
+		<div class="form-group col">
+			<label>Seu nome *</label>
+			<input type="text" value="" data-msg-required="Por favor, insira seu nome." maxlength="100" class="form-control" name="name" id="name" required>
+		</div>
+	</div>
+	<div class="form-row">
+		<div class="form-group col">
+			<label>Seu e-mail *</label>
+			<input type="email" value="" data-msg-required="Por favor, digite o seu endere&ccedil;o de e-mail." data-msg-email="Por favor insira um endere&ccedil;o de e-mail v&aacute;lido." maxlength="100" class="form-control" name="email" id="email" required>
+		</div>
+	</div>	
+	<div class="form-row">
+		<div class="form-group col">
+			<label>Seu telefone *</label>
+			<input type="telefone" value="" data-msg-required="Por favor, digite o seu telefone." data-msg-email="Por favor insira um telefone v&aacute;lido." maxlength="100" class="form-control phone" name="telefone" id="telefone">
+		</div>
+	</div>
+	<div class="form-row">
+		<div class="form-group col">
+			<label>Assunto</label>
+			<input type="text" value="" data-msg-required="Por favor insira o assunto." maxlength="100" class="form-control" name="assunto" id="assunto" required>
+		</div>
+	</div>
+	<div class="form-row">
+		<div class="form-group col">
+			<label>Mensagem *</label>
+			<textarea maxlength="5000" data-msg-required="Por favor insira a sua mensagem." rows="3" class="form-control" name="message" id="message" required></textarea>
+		</div>
+	</div>
+	<span style="display:none; visibility:hidden;">
+	    <label> Ignore este campo de texto. Ele esta aqui para detectar spammers.
+	        Se voce entrar qualquer valor neste campo, sua mensagem nao sera enviada.</label>
+	    <input type="text" name="antispam" id="antispam" size="50" value="1" />
+    </span>	
+    
+    <!-- Replace data-sitekey with your own one, generated at https://www.google.com/recaptcha/admin -->
+	<div class="alert alert-danger" id="spamDetected" style="display: none"></div> 
+	<input type="text" name="hd-recaptcha" id="hd-recaptcha" class="validate[required] hide" value="">
+	<div class="g-recaptcha" data-sitekey="6LdkEQsUAAAAAKKdM1-n_y0oFky2dPoFxSm77Q4H" data-callback="recaptchaCallback" style="transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>   
+	 
+	<div class="form-row" style="padding-top:10px;">
+		<div class="form-group col">
+			<input type="submit" value="Enviar" class="btn btn-primary mb-4" data-loading-text="Carregando...">
+
+			<div class="contact-form-success alert alert-success d-none" id="contactSuccess">
+				A mensagem foi enviada para n&oacute;s.
+			</div>
+
+			<div class="contact-form-error alert alert-danger d-none" id="contactError">
+				Erro ao enviar sua mensagem.
+				<span class="mail-error-message text-1 d-block" id="mailErrorMessage"></span>
+			</div>
+		</div>
+	</div>
+	<input type="hidden" name="url_atual" value="{URLATUAL}">
+</form> 

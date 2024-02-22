@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<transitions>
+    <transition> <action>notransition</action> <name>Sem efeito</name></transition>
+    <transition> <action>fade</action> <name>Fade</name></transition>
+    <transition> <action>crossfade</action> <name>Fade Cross</name></transition>
+    <transition> <action>fadethroughdark</action> <name>Fade Through Black</name></transition>
+    <transition> <action>fadethroughlight</action> <name>Fade Through Light</name></transition>
+    <transition> <action>fadethroughtransparent</action> <name>Fade Through Transparent</name></transition>
+    <transition> <action>slideup</action> <name>Slide To Top</name></transition>
+    <transition> <action>slidedown</action> <name>Slide To Bottom</name></transition>
+    <transition> <action>slideright</action> <name>Slide To Right</name></transition>
+    <transition> <action>slideleft</action> <name>Slide To Left</name></transition>
+    <transition> <action>slidehorizontal</action> <name>Slide Horizontal (Next/Previous)</name></transition>
+    <transition> <action>slidevertical</action> <name>Slide Vertical (Next/Previous)</name></transition>
+    <transition> <action>slideoverup</action> <name>Slide Over To Top</name></transition>
+    <transition> <action>slideoverdown</action> <name>Slide Over To Bottom</name></transition>
+    <transition> <action>slideoverright</action> <name>Slide Over To Right</name></transition>
+    <transition> <action>slideoverleft</action> <name>Slide Over To Left</name></transition>
+    <transition> <action>slideoverhorizontal</action> <name>Slide Over Horizontal (Next/Previous)</name></transition>
+    <transition> <action>slideoververtical</action> <name>Slide Over Vertical (Next/Previous)</name></transition>
+    <transition> <action>slideremoveup</action> <name>Slide Remove To Top</name></transition>
+    <transition> <action>slideremovedown</action> <name>Slide Remove To Bottom</name></transition>
+    <transition> <action>slideremoveright</action> <name>Slide Remove To Right</name></transition>
+    <transition> <action>slideremoveleft</action> <name>Slide Remove To Left</name></transition>
+    <transition> <action>slideremovehorizontal</action> <name>Slide Remove Horizontal (Next/Previous)</name></transition>
+    <transition> <action>slideremovevertical</action> <name>Slide Remove Vertical (Next/Previous)</name></transition>
+    <transition> <action>slidingoverlayup</action> <name>Sliding Overlays To Top</name></transition>
+    <transition> <action>slidingoverlaydown</action> <name>Sliding Overlays To Bottom</name></transition>
+    <transition> <action>slidingoverlayright</action> <name>Sliding Overlays To Right</name></transition>
+    <transition> <action>slidingoverlayleft</action> <name>Sliding Overlays To Left</name></transition>
+    <transition> <action>boxslide</action> <name>Slide Boxes</name></transition>
+    <transition> <action>slotslide-horizontal</action> <name>Slide Slots Horizontal</name></transition>
+    <transition> <action>slotslide-vertical</action> <name>Slide Slots Vertical</name></transition>
+    <transition> <action>boxfade</action> <name>Fade Boxes</name></transition>
+    <transition> <action>slotfade-horizontal</action> <name>Fade Slots Horizontal</name></transition>
+    <transition> <action>slotfade-vertical</action> <name>Fade Slots Vertical</name></transition>
+    <transition> <action>fadefromright</action> <name>Fade and Slide from Right</name></transition>
+    <transition> <action>fadefromleft</action> <name>Fade and Slide from Left</name></transition>
+    <transition> <action>fadefromtop</action> <name>Fade and Slide from Top</name></transition>
+    <transition> <action>fadefrombottom</action> <name>Fade and Slide from Bottom</name></transition>
+    <transition> <action>fadetoleftfadefromright</action> <name>To Left From Right</name></transition>
+    <transition> <action>fadetorightfadefromleft</action> <name>To Right From Left</name></transition>
+    <transition> <action>fadetotopfadefrombottom</action> <name>To Top From Bottom</name></transition>
+    <transition> <action>fadetobottomfadefromtop</action> <name>To Bottom From Top</name></transition>
+    <transition> <action>parallaxtoright</action> <name>Parallax to Right</name></transition>
+    <transition> <action>parallaxtoleft</action> <name>Parallax to Left</name></transition>
+    <transition> <action>parallaxtotop</action> <name>Parallax to Top</name></transition>
+    <transition> <action>parallaxtobottom</action> <name>Parallax to Bottom</name></transition>
+    <transition> <action>parallaxhorizontal</action> <name>Parallax Horizontal</name></transition>
+    <transition> <action>parallaxvertical</action> <name>Parallax Vertical</name></transition>
+    <transition> <action>scaledownfromright</action> <name>Zoom Out and Fade From Right</name></transition>
+    <transition> <action>scaledownfromleft</action> <name>Zoom Out and Fade From Left</name></transition>
+    <transition> <action>scaledownfromtop</action> <name>Zoom Out and Fade From Top</name></transition>
+    <transition> <action>scaledownfrombottom</action> <name>Zoom Out and Fade From Bottom</name></transition>
+    <transition> <action>zoomout</action> <name>ZoomOut</name></transition>
+    <transition> <action>zoomin</action> <name>ZoomIn</name></transition>
+    <transition> <action>slotzoom-horizontal</action> <name>Zoom Slots Horizontal</name></transition>
+    <transition> <action>slotzoom-vertical</action> <name>Zoom Slots Vertical</name></transition>
+    <transition> <action>curtain-1</action> <name>Curtain from Left</name></transition>
+    <transition> <action>curtain-2</action> <name>Curtain from Right</name></transition>
+    <transition> <action>curtain-3</action> <name>Curtain from Middle</name></transition>
+    <transition> <action>grayscale</action> <name>Grayscale Transition</name></transition>
+    <transition> <action>grayscalecross</action> <name>Grayscale Cross Transition</name></transition>
+    <transition> <action>brightness</action> <name>Brightness Transition</name></transition>
+    <transition> <action>brightnesscross</action> <name>Brightness Cross Transition</name></transition>
+    <transition> <action>blurlight</action> <name>Blur Light Transition</name></transition>
+    <transition> <action>blurlightcross</action> <name>Blur Light Cross Transition</name></transition>
+    <transition> <action>blurstrong</action> <name>Blur Strong Transition</name></transition>
+    <transition> <action>blurstrongcross</action> <name>Blur Strong Cross Transition</name></transition>
+    <transition> <action>3dcurtain-horizontal</action> <name>3D Curtain Horizontal</name></transition>
+    <transition> <action>3dcurtain-vertical</action> <name>3D Curtain Vertical</name></transition>
+    <transition> <action>cube</action> <name>Cube Vertical</name></transition>
+    <transition> <action>cube-horizontal</action> <name>Cube Horizontal</name></transition>
+    <transition> <action>incube</action> <name>In Cube Vertical</name></transition>
+    <transition> <action>incube-horizontal</action> <name>In Cube Horizontal</name></transition>
+    <transition> <action>turnoff</action> <name>TurnOff Horizontal</name></transition>
+    <transition> <action>turnoff-vertical</action> <name>TurnOff Vertical</name></transition>
+    <transition> <action>papercut</action> <name>Paper Cut</name></transition>
+    <transition> <action>flyin</action> <name>Fly In</name></transition>
+    <transition> <action>flip</action> <name>Flip</name></transition>
+    <transition> <action>random-selected</action> <name>Random of Selected</name></transition>
+    <transition> <action>random-static</action> <name>Random Flat</name></transition>
+    <transition> <action>random-premium</action> <name>Random Premium</name></transition>
+    <transition> <action>random</action> <name>Random Flat and Premium</name></transition>
+</transitions>

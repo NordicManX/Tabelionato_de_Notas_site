@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	{HEADER}
+    	
+		<!-- Google codes -->
+		{GC-GOOGLE-DATALAYERS}  
+		{GC-GOOGLECODE-HEAD}  
+		
+		<!-- Integrations  -->
+		{GC-INTEGRACOES-HEAD}
+		
+    </head>
+    <body class="loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}">
+		<!-- Google codes -->
+		{GC-GOOGLECODE-BODY}  
+		
+		<!-- Integrations  -->
+		{GC-INTEGRACOES-BODY}
+        <div class="loading-overlay">
+            <div class="bounce-loader">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+
+        <div class="body">
+        
+            {HEADER-MENU}
+
+            <div role="main" class="main">
+            
+            
+				<section class="page-header page-header-modern bg-color-light-scale-1 page-header-sm">
+					<div class="container">
+						<div class="row">
+
+
+							<div class="col-md-8 order-2 order-md-1 align-self-center p-static">
+								<h1 data-title-border class="text-dark"><strong>{PAGE-TITLE}</strong></h1>
+
+							</div>
+
+
+							<div class="col-md-4 order-1 order-md-2 align-self-center">
+								<ul class="breadcrumb d-block text-md-right">
+									<li><a href="/">Home</a></li>
+									<li class="active">{PAGE-TITLE}</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+
+				<div class="container py-2 mb-5">
+
+					<div class="row">
+						<div class="col col-lg-12">
+							<img class="img-fluid float-right ml-5 mb-4 mt-4 {HIDE-IMG} appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="0" data-appear-animation-duration="1s" style="animation-duration: 1s; animation-delay: 0ms;" src="{PAGE-THUMB-IMGURL}" alt="{PAGE-TITLE}" />
+							{PAGE-CONTENT}
+							<a href="{PAGE-FILE}" class="btn btn-primary {PAGE-FILE-HIDE}" title="baixar arquivo em anexo do {PAGE-TITLE}"><i class="fa fa-download" aria-hidden="true"></i> Baixar arquivo</a>
+							{PAGE-ALBUM}
+							{PAGE-FILES}
+							<ul class="nav nav-list flex-column mb-4 show-bg-active">
+								{SUBPAGE-LISTING} 
+								{PAGINATION}
+							</ul>						
+						</div>						
+					</div>
+
+				</div>
+			</div>            
+
+           
+            <footer id="footer" class="mt-0">
+            	{FOOTER}
+			</footer>
+        </div>
+				
+		{VENDORS-JS}
+
+		 
+    </body>
+</html>

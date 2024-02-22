@@ -1,0 +1,261 @@
+/* Add here all your CSS customizations */
+#footer a:not(.btn):hover {
+    text-decoration: none;
+    color: #6b0606 !important;
+}
+
+#header .header-top.header-top-default {
+   background: url(/sys/skins/skn-cartorioguaratuba/images/guara-fundo.jpeg) repeat;
+   background-size: contain;
+}
+
+#header .header-nav-top .nav > li > a, #header .header-nav-top .nav > li > span {
+    color: #000;
+	font-weight: bold;
+}
+
+.hide{
+	display: none !important; 
+}
+
+.sticky-header-active .header-logo img {
+    height:48px;
+}
+
+.header-logo img {
+ /*  height:auto;*/
+}
+
+
+[data-href] {
+    cursor: pointer;
+}
+
+
+.highlight{
+	color: #f60404;
+	font-weight: bold;
+}
+
+.list-files ul{
+	margin: 0px 0 0 0;
+	padding: 10px;
+	list-style: none;
+}
+
+.list-files ul li{
+	padding: 10px;
+	border-bottom: 1px dotted #ccc;
+	list-style: none !important;
+}
+
+.list-files ul li:first-child{
+	border-top:1px dotted #ccc;
+}
+
+.col-no-padding {
+    padding: 0 !important;
+}
+
+@media (min-width: 992px){
+	.modal {
+	    padding: 1%;
+	}
+	.modal-dialog {
+	    min-width: 500px;
+	    max-width: fit-content;
+	}
+} 
+
+/* WHATSAPP E TELEFONE FIXO DIREITA */
+@keyframes pulse_animation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.whats-fone {
+    position: fixed;
+    top: 50%;
+    z-index: 999999;
+    right: 0px;
+    width: 0px;
+    height: 100px;
+    margin-top: -50px;
+}
+
+.whats-fone a {
+    color: #FFF !important;
+    display: block;
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    padding: 15px 0 0 70px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.whats-fone .bt {
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    z-index: 20;
+    text-align: left;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    animation-name: pulse_animation;
+    animation-duration: 1000ms;
+    transform-origin: 70% 70%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.whats-fone .bt:before {
+    position: absolute;
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFF;
+    font-size: 40px;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.whats-fone .abre {
+    left: -60px;
+}
+
+.whats-fone .fecha {
+    left: auto;
+    right: -30px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.whats-fone .fecha:before {
+    content: '\f054';
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: "FontAwesome";
+}
+
+.whats-fone .whatsapp {
+    background: #00BC5D;
+    width: 275px;
+    height: 85px;
+    padding: 15px 40px 10px 70px;
+    position: relative;
+    right: 0px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+    text-align: left;
+    color: #FFF;
+    box-sizing: border-box;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.whats-fone .whatsapp:before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 55px;
+    height: 85px;
+    padding-right: 5px;
+    color: #FFF;
+    font-size: 40px;
+    text-align: right;
+    line-height: 85px;
+    content: '\f232';
+    font-family: "Font Awesome 5 Brands";
+}
+
+.whats-fone .whatsapp span {
+    font-weight: 400;
+    font-size: 18px;
+    display: block;
+}
+
+.whats-fone .whatsapp strong {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.whats-fone .whatsapp .abre {
+    background: #00BC5D;
+    top: 20px;
+	border-radius: 5px 0 0 5px;
+}
+
+.whats-fone .whatsapp .abre:before {
+    content: '\f232';
+    font-family: "Font Awesome 5 Brands";
+}
+
+.whats-fone .whatsappAbre {
+    right: 275px;
+}
+
+.whats-fone .whatsappAbre .abre {
+    left: auto;
+    right: -60px;
+    bottom: 0px;
+    opacity: 0;
+}
+
+.whats-fone .whatsappAbre .fecha {
+    right: 0px;
+    bottom: 0px;
+}
+
+.whats-fone .abre {
+    animation-name: pulse_animation;
+    animation-duration: 1000ms;
+    transform-origin: 70% 70%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@media (max-width:669px) {
+    .hide-mobile, .grecaptcha-badge {
+        display:none !important;
+    }
+    
+	.whats-fone .whatsapp .abre {
+	    top: 25vh !important;
+	}    
+	
+	.btn {
+    	font-size: 1.3rem !important;
+    }
+    
+    div[vw]{
+	    top: 35% !important;
+    }
+}
