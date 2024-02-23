@@ -12,7 +12,7 @@ html {
 
 body {
 	background-color: #082432;
-	color: #082432;
+	color: #555;
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 26px;
@@ -1974,23 +1974,23 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 	}
 
 	#header .header-nav.header-nav-links:not(.header-nav-light-text) nav > ul > li > a, #header .header-nav.header-nav-line:not(.header-nav-light-text) nav > ul > li > a {
-		color: #444;
+		color: #082432;
 	}
 
 	#header .header-nav.header-nav-links.header-nav-light-text nav > ul > li > a, #header .header-nav.header-nav-line.header-nav-light-text nav > ul > li > a {
-		color: #FFF;
+		color: #D1D1D1;
 	}
 
 	#header .header-nav.header-nav-links.header-nav-force-light-text nav > ul > li > a, #header .header-nav.header-nav-line.header-nav-force-light-text nav > ul > li > a {
-		color: #FFF !important;
+		color: #D1D1D1 !important;
 	}
 
 	#header .header-nav.header-nav-links.header-nav-force-light-text nav > ul > li > a.active, #header .header-nav.header-nav-line.header-nav-force-light-text nav > ul > li > a.active {
-		color: #FFF !important;
+		color: #D1D1D1 !important;
 	}
 
 	#header .header-nav.header-nav-links.header-nav-force-light-text nav > ul > li:hover > a, #header .header-nav.header-nav-links.header-nav-force-light-text nav > ul > li:focus > a, #header .header-nav.header-nav-links.header-nav-force-light-text nav > ul > li:active > a, #header .header-nav.header-nav-line.header-nav-force-light-text nav > ul > li:hover > a, #header .header-nav.header-nav-line.header-nav-force-light-text nav > ul > li:focus > a, #header .header-nav.header-nav-line.header-nav-force-light-text nav > ul > li:active > a {
-		color: #FFF !important;
+		color: #D1D1D1  !important;
 	}
 
 	#header .header-nav.header-nav-line nav > ul > li > a:before, #header .header-nav.header-nav-line nav > ul > li:hover > a:before {
@@ -5870,21 +5870,21 @@ html.dark .text-muted {
 }
 
 #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-	color: #082432;
+	color: #d1d1d1;
 }
 
 #footer a:not(.btn) {
-	color: #777;
+	color: #082432;
 	transition: all 0.1s ease-in-out;
 }
 
 #footer a:not(.btn):hover {
 	text-decoration: none;
-	color: #FFF;
+	color: #000000;
 }
 
 #footer a:not(.btn):focus, #footer a:not(.btn):active {
-	color: #CCC;
+	color: #eee;
 }
 
 #footer a:not(.btn).text-color-light {

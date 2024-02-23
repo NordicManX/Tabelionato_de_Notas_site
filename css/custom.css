@@ -1,7 +1,7 @@
 /* Add here all your CSS customizations */
 #footer a:not(.btn):hover {
     text-decoration: none;
-    color: #6b0606 !important;
+    color: #082432 !important;
 }
 
 #header .header-top.header-top-default {
@@ -33,7 +33,7 @@
 
 
 .highlight{
-	color: #f60404;
+	color: #082425;
 	font-weight: bold;
 }
 

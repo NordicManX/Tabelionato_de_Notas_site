@@ -519,24 +519,24 @@ html .nav-color-light:not(.header-nav-main-dropdown-arrow) nav > ul > li ul {
 }
 
 html .nav-pills-primary a {
-	color: #cfa968;
+	color: #082432;
 }
 
 html .nav-pills-primary a:hover {
-	color: #d5b47b;
+	color: #082432;
 }
 
 html .nav-pills-primary a:focus {
-	color: #d5b47b;
+	color: #082432;
 }
 
 html .nav-pills-primary a:active {
-	color: #c99e55;
+	color: #082432;
 }
 
 html .nav-pills-primary .nav-link.active,
 html .nav-pills-primary > li.active > a {
-	background-color: #cfa968;
+	background-color: #082432;
 }
 
 html .nav-pills-primary .nav-link.active:hover,
@@ -3633,53 +3633,53 @@ html[dir="rtl"] #header .tip-light:before {
 	}
 
 	#header .header-nav-main nav > ul > li.dropdown-mega-signin .dropdown-menu {
-		border-top-color: #cfa968;
+		border-top-color: #082432;
 	}
 
 	#header .header-nav-main nav > ul > li.dropdown-mega-signin .dropdown-menu li a {
-		color: #cfa968;
+		color: #082432;
 	}
 
 	#header .header-nav-main nav > ul:not(:hover) > li > a.active {
-		background-color: #cfa968;
+		background-color: #082432;
 		color: #FFF;
 	}
 
 	#header .header-nav.header-nav-stripe nav > ul > li:hover > a,
   #header .header-nav.header-nav-stripe nav > ul > li.open > a {
-		background-color: #cfa968;
+		background-color: #082432;
 	}
 
 	#header .header-nav.header-nav-stripe nav > ul:not(:hover) > li > a.active {
-		background-color: #cfa968;
+		background-color: #082432;
 	}
 
 	#header .header-nav.header-nav-stripe nav > ul:hover > li > a.active {
-		color: #cfa968;
+		color: #082432;
 	}
 
 	#header .header-nav.header-nav-links nav > ul li:hover > a {
-		color: #cfa968;
+		color: #082432;
 	}
 
 	#header .header-nav.header-nav-links nav > ul:not(:hover) > li > a.active {
-		color: #cfa968;
+		color: #082432;
 	}
 
 	#header .header-nav.header-nav-links.header-nav-links-vertical-slide nav ul li.dropdown .dropdown-menu::-webkit-scrollbar-thumb {
-		background: #cfa968 !important;
+		background: #082432 !important;
 	}
 
 	#header .header-nav.header-nav-line nav > ul li:hover > a {
-		color: #cfa968;
+		color: #082432;
 	}
 
 	#header .header-nav.header-nav-line nav > ul li:hover > a:before {
-		background: #cfa968;
+		background: #082432;
 	}
 
 	#header .header-nav.header-nav-line nav > ul:not(:hover) li > a.active {
-		color: #cfa968;
+		color: #082432;
 	}
 
 	#header .header-nav.header-nav-line nav > ul:not(:hover) li > a.active:before {
