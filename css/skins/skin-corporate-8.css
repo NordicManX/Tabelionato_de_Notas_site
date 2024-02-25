@@ -1,17 +1,17 @@
 a {
-	color: #cfa968;
+	color: #082432;
 }
 
 a:hover {
-	color: #d5b47b;
+	color: #d1d1d1;
 }
 
 a:focus {
-	color: #d5b47b;
+	color: #d1d1d1;
 }
 
 a:active {
-	color: #c99e55;
+	color: #082432;
 }
 
 html .text-color-primary,
