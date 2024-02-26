@@ -66,7 +66,7 @@ html .text-hover-dark:hover {
 
 html .text-color-light,
 html .text-light {
-	color: #082432 !important;
+	color: #d1d1d1 !important;
 }
 
 html .text-color-hover-light:hover,
@@ -86,12 +86,12 @@ html .svg-stroke-color-primary svg rect {
 
 html .svg-fill-color-secondary svg path,
 html .svg-fill-color-secondary svg rect {
-	fill: #8b5a06 !important;
+	fill: #082432 !important;
 }
 
 html .svg-stroke-color-secondary svg path,
 html .svg-stroke-color-secondary svg rect {
-	stroke: #8b5a06 !important;
+	stroke: #082432 !important;
 }
 
 html .svg-fill-color-tertiary svg path,
@@ -425,19 +425,19 @@ p.drop-caps:first-letter {
 }
 
 p.drop-caps.drop-caps-style-2:first-letter {
-	background-color: #cfa968;
+	background-color: #082432;
 }
 
 html .nav-color-primary nav > ul > li > a {
-	color: #cfa968 !important;
+	color: #082432 !important;
 }
 
 html .nav-color-primary:not(.header-nav-main-dropdown-arrow) nav > ul > li > a:before {
-	background-color: #cfa968 !important;
+	background-color: #082432 !important;
 }
 
 html .nav-color-primary:not(.header-nav-main-dropdown-arrow) nav > ul > li ul {
-	border-top-color: #cfa968 !important;
+	border-top-color: #082432 !important;
 }
 
 html .nav-color-secondary nav > ul > li > a {
@@ -445,7 +445,7 @@ html .nav-color-secondary nav > ul > li > a {
 }
 
 html .nav-color-secondary:not(.header-nav-main-dropdown-arrow) nav > ul > li > a:before {
-	background-color: #8b5a06 !important;
+	background-color: red !important;
 }
 
 html .nav-color-secondary:not(.header-nav-main-dropdown-arrow) nav > ul > li ul {
@@ -3624,7 +3624,7 @@ html[dir="rtl"] #header .tip-light:before {
 	}
 
 	#header .header-nav-main nav > ul > li.dropdown .dropdown-menu {
-		border-top-color: #cfa968;
+		border-top-color: #082432;
 	}
 
 	#header .header-nav-main nav > ul > li.dropdown.open > a:before,
@@ -4295,7 +4295,7 @@ html[dir="rtl"] #header .tip-light:before {
 }
 
 html #header .header-top.header-top-primary {
-	background: #cfa968;
+	background: #082432;
 	border-top-color: #c99e55;
 }
 
@@ -5735,7 +5735,7 @@ html .slide-overlay.slide-overlay-gradient .slotholder:after {
 }
 
 .scrollable.colored-slider .scrollable-slider {
-	background: #cfa968;
+	background: #082432;
 }
 
 .sample-icon-list .sample-icon a:hover {
