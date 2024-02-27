@@ -5888,11 +5888,11 @@ html.dark .text-muted {
 }
 
 #footer a:not(.btn).text-color-light {
-	color: #FFF !important;
+	color: #fff !important;
 }
 
 #footer a:not(.btn).text-color-light:hover {
-	color: #e6e6e6 !important;
+	color: #082432 !important;
 }
 
 #footer a:not(.btn).text-color-light:focus, #footer a:not(.btn).text-color-light:active {
